@@ -8,7 +8,8 @@
 
 ## 💻 Projeto
 
-Este projeto foi feito a partir do tutorial do <a src="https://www.youtube.com/@leovargas" target="_blank">Leo Vargas</a> que ensina a como criar o site do filme **Mario Bros** ao usar _HTML_ e _CSS_.
+Este projeto foi feito a partir do tutorial do Leo Vargas que ensina a como criar o site do filme **Mario Bros** ao usar _HTML_ e _CSS_.
+Canal do Leo Vargas: https://www.youtube.com/@leovargas
 
 ## 🚀 Tecnologias
 

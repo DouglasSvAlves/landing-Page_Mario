@@ -1,0 +1,22 @@
+.background {
+    position: fixed;
+    inset: 0; /*Faz o top, bottom e left ficar com 0*/
+    z-index: -1; /*Foi feito para o background ir para parte de trás, se não ele iria ficar em cima e nada iria apareçer*/
+    width: 100%;
+    height: 100%;
+}
+
+.background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*É uma propriedade similar ao background-size:cover*/
+}
+
+.background::after { /*Para gerar a parte escura em cima do vídeo*/
+    content: '';
+    width: inherit; /*Fica igual em relação ao pai em questão de largura*/
+    height: inherit;
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
